@@ -1,12 +1,13 @@
 import { ListaTarefas } from "./components/ListaTarefas";
+import TodoApp from "./components/ListaTarefas/TarefasRealizadas";
 import { GlobalStyle } from "./GlobalStyle";
-
 
 function App() {
   return (
     <div>
       <GlobalStyle />
-     <ListaTarefas />
+      <ListaTarefas />
+      {/* <TarefasRealizadas /> */}
     </div>
   );
 }
